@@ -2,3 +2,4 @@
 # Start Apache and serve Hello Holberton on port 80
 service apache2 start
 echo "Hello Holberton" > /var/www/html/index.html
+service apache2 status
